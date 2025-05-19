@@ -6,7 +6,9 @@
 
 README.md
 about.html
-|  signups
+|  signup
 |     |  signup.html
+|  donate
+|     |  donate.html
 |  resources
 |     |  style.css
