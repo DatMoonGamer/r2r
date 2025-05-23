@@ -26,6 +26,8 @@ h1 {
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 0px;
+
+   padding: 10px;
 }
 
 #header_left {
@@ -50,7 +52,7 @@ h1 {
    list-style: none;
    margin-left: 25px;
    margin-right: 25px;
-   padding: 5px;
+   padding: 10px;
 
    box-sizing: border-box;
    
@@ -59,7 +61,7 @@ h1 {
 
    text-align: center;
 
-   border: none;
+   border-radius: 25px;
 }
 
 .button:hover {
@@ -68,13 +70,14 @@ h1 {
 
 #main_content {
    color: navy;
-   margin-top: 75px;
+   margin-top: 100px;
 }
 
 #top {
    width: 80vw;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 50px;
    display: flex;
    justify-content: center;
 }
@@ -89,6 +92,20 @@ h1 {
    margin: 25px;
 }
 
+#bottom {
+   width: 90vw;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;
+}
+
 #more_info {
    text-align: center;
+   margin: 25px;
+}
+
+.slide {
+   width: 750px;
+   height: 500px;
 }
