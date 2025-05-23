@@ -29,7 +29,8 @@ h1 {
 }
 
 #header_left {
-   text-align: left;
+   display: flex;
+   justify-content: center;
 }
 
 #header li {
