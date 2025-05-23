@@ -23,6 +23,31 @@
         <h1>Donate</h1>
       </div>
 
+      <!-- Referenced from lab 5 -->
+        <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+          <fieldset>
+              <legend>Contact Information</legend>
+              <div class="formData">
+
+                <label class="field" for="firstName">First Name (optional):</label>
+                <div class="value"><input type="text" size="60" value="" name="firstName" id="firstName" autofocus/></div>
+
+                <label class="field" for="lastName">Last Name (optional):</label>
+                <div class="value"><input type="text" size="60" value="" name="lastName" id="lastName" /></div>
+
+                <label class="field" for="pseudonym">Amount:</label>
+                <div class="value"><input type="text" size="60" value="" name="pseudonym" id="pseudonym" /></div>
+
+                <label class="field" for="comments">Message (optional):</label>
+                <div class="value"><textarea rows="4" cols="40" name="comments"
+                      id="comments" onclick="clearComment();" onblur="resetComment();">Please enter a message</textarea></div>
+
+                <input type="submit" value="save" id="save" name="save" />
+              </div>
+          </fieldset>
+        </form>
+      <!-- Referenced from lab 5 -->
+
     </div>
 
   </body>
