@@ -24,7 +24,7 @@
       </div>
 
       <!-- Referenced from lab 5 -->
-      <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+      <form id="addForm" name="addForm" action="/signup/signup_handler.php" method="post">
           <fieldset>
               <legend>Contact Information</legend>
               <div class="formData">
@@ -41,8 +41,8 @@
                 <label class="field" for="ticket">Ticket type:</label>
                 <div class="value"><input type="text" size="60" value="" name="ticket" id="ticket" /></div>
 
-                <label class="field" for="lastName">Email:</label>
-                <div class="value"><input type="text" size="60" value="" name="lastName" id="lastName" /></div>
+                <label class="field" for="email">Email:</label>
+                <div class="value"><input type="text" size="60" value="" name="email" id="email" /></div>
 
                 <input type="submit" value="save" id="save" name="save" />
               </div>
