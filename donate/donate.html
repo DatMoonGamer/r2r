@@ -24,7 +24,7 @@
       </div>
 
       <!-- Referenced from lab 5 -->
-        <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+      <form id="addForm" name="addForm" action="/donate/donate_handler.php" method="post">
           <fieldset>
               <legend>Contact Information</legend>
               <div class="formData">
@@ -35,8 +35,8 @@
                 <label class="field" for="lastName">Last Name (optional):</label>
                 <div class="value"><input type="text" size="60" value="" name="lastName" id="lastName" /></div>
 
-                <label class="field" for="pseudonym">Amount:</label>
-                <div class="value"><input type="text" size="60" value="" name="pseudonym" id="pseudonym" /></div>
+                <label class="field" for="amount">Amount:</label>
+                <div class="value"><input type="text" size="60" value="" name="amount" id="amount" /></div>
 
                 <label class="field" for="comments">Message (optional):</label>
                 <div class="value"><textarea rows="4" cols="40" name="comments"
