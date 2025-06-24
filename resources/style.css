@@ -1,7 +1,16 @@
+:root {
+   --primary: #003594;
+   --secondary: #002554;
+   --tertiary: white;
+   --background: lightskyblue;
+   --primary-text: #002554;
+   --secondary-text: white;
+}
+
 body {
    font-family: Arial, Helvetica, sans-serif;
-   color: white;
-   background-color: lightskyblue;
+   color: var(--secondary-text);
+   background-color: var(--background);
    margin: 0;
    overflow-x: hidden;
 }
@@ -31,8 +40,8 @@ h1 {
 }
 
 #header {
-  background-color: black;
-  color: white;
+  background-color: var(--secondary);
+  color: var(--secondary-text);
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   z-index: 100;
 }
@@ -51,7 +60,7 @@ h1 {
 }
 
 .brand-link {
-  color: white;
+  color: var(--secondary-text);
   font-weight: bold;
   font-size: 2.0rem;
   text-decoration: none;
@@ -74,7 +83,7 @@ h1 {
 }
 
 .nav-link {
-  color: white;
+  color: var(--secondary-text);
   text-decoration: none;
   font-weight: 600;
   padding: 10px 15px;
@@ -89,8 +98,14 @@ h1 {
 }
 
 #main_content {
-   color: navy;
+   color: var(--primary-text);
    margin-top: 100px;
+}
+
+.content_box {
+   padding: 30px;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.2);
 }
 
 #top {
@@ -104,7 +119,7 @@ h1 {
 
 #flyer {
    border-width: 5px;
-   border-color: white;
+   border-color: var(--tertiary);
 }
 
 #prio_info {
@@ -134,10 +149,10 @@ h1 {
 #footer {
    width: 100vw;
    bottom: 0; 
-   color: white;
+   color: var(--secondary-text);
    text-align: center;
 
-   background-color: black;
+   background-color: var(--secondary);
 
    margin-top: 0px;
    margin-left: auto;
@@ -157,3 +172,4 @@ h1 {
    list-style: none;
    padding: 0;
 }
+
