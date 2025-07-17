@@ -12,3 +12,9 @@ about.html
 |     |  donate.html
 |  resources
 |     |  style.css
+
+## Notes
+
+cd /var/www/html/r2r
+sudo service apache2 start
+sudo service mariadb start
