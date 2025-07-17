@@ -23,35 +23,34 @@
 
     <div id="main_content">
 
-      <div>
-        <h1>Donate</h1>
+      <div id="top">
+        <div id="prio_info" class="content_box">
+          <h1>Donate to Run to Remember</h1>
+          <p>croods running music</p>
+        </div>
+
+        <div>
+
+          <!-- donate button -->
+          <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+          </script>
+
+          <stripe-buy-button
+            buy-button-id="buy_btn_1RmFgtBG96V33aEqEcQKRxKk"
+            publishable-key="pk_live_51RlcEEBG96V33aEqQjO6yo8KWZKVRE5STaWv1i0B1hyBYe2gbXV7De0vKjujVLm1eKvk3KdZmUC3gnPWO4nBqO3e00nJD5W0ws"
+          >
+          </stripe-buy-button>
+
+        </div>
       </div>
 
-      <!-- Referenced from lab 5 -->
-      <form id="addForm" name="addForm" action="/donate/donate_handler.php" method="post">
-          <fieldset>
-              <legend>Contact Information</legend>
-              <div class="formData">
+    </div>
 
-                <label class="field" for="firstName">First Name (optional):</label>
-                <div class="value"><input type="text" size="60" value="" name="firstName" id="firstName" autofocus/></div>
-
-                <label class="field" for="lastName">Last Name (optional):</label>
-                <div class="value"><input type="text" size="60" value="" name="lastName" id="lastName" /></div>
-
-                <label class="field" for="amount">Amount:</label>
-                <div class="value"><input type="text" size="60" value="" name="amount" id="amount" /></div>
-
-                <label class="field" for="comments">Message (optional):</label>
-                <div class="value"><textarea rows="4" cols="40" name="comments"
-                      id="comments" onclick="clearComment();" onblur="resetComment();">Please enter a message</textarea></div>
-
-                <input type="submit" value="save" id="save" name="save" />
-              </div>
-          </fieldset>
-        </form>
-      <!-- Referenced from lab 5 -->
-
+    <div id="footer">
+      <p>Contact Detachment 550</p>
+      <p>Phone: (518) 276-6236</p>
+      <p>Email: afrotc@rpi.edu</p>
     </div>
 
   </body>
